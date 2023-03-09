@@ -11,5 +11,4 @@ int main()
 void print()
 {
     printf(" \nValue of a is : %d",a);
-    a = 20;
 }
