@@ -11,7 +11,7 @@ void func2()
 }
 int main()
 {
-    auto a = 30;
+    auto int a = 30;
     func1();
     func2();
     printf("\n a = %d",a);
