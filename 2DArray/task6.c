@@ -12,7 +12,7 @@ int main()
         scanf("%d",&arr[i]);
     }
     printf("\nPassing element by element: ");
-    for(i=0; i<5; i++)
+    for(i=0; i<n; i++)
     {
         value(arr[i]);
     }
@@ -20,5 +20,5 @@ int main()
 }
 void value(int u)
 {
-    printf("%d",u);
+    printf("%d\n",u);
 }
