@@ -19,11 +19,13 @@ int main()
         gets(u[i].name);
         printf("\nEntered name is : %s",u[i].name);
         printf("\nEnter id: ");
+        fflush(stdin);
         scanf("%d",&u[i].id);
         printf("Enterd id is : %d",u[i].id);
         printf("\nEnter Salary: ");
+        fflush(stdin);
         scanf("%d",&u[i].salary);
-        printf("Entered salary is : %2f",u[i].salary);
+        printf("\nEntered salary is : %2f",u[i].salary);
     }
     return 0;
 }
