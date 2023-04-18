@@ -14,4 +14,5 @@ int main()
     printf("name is is %s",st.name);
     fclose(fptr);
     getch;
+    return 0;
 }
