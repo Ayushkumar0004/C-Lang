@@ -23,5 +23,5 @@ int main()
         printf("\nThe sum is: %d",*psum);
         printf("\nThe mean is: %f",*pmean);
     }
-    return 0;
+    return 0;  
 }
