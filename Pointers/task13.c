@@ -7,7 +7,7 @@ int main()
     p = arr;
     printf("\nFirst value is:%d",*p);
     p=p+1;
-    printf("\nSexond value is:%d",*p);
+    printf("\nSecond value is:%d",*p);
     *p = 45;
     p=p+2;
     *p=-2;
